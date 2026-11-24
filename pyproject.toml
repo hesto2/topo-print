@@ -3,6 +3,7 @@ name = "topo-print"
 version = "0.1.0"
 description = "Generate multi-color 3D-printable terrain tiles with lakes and rivers"
 requires-python = ">=3.11"
+license = "MIT"
 dependencies = [
     "numpy",
     "pillow",

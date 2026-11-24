@@ -79,3 +79,7 @@ uv run pytest
 
 Inspired by [TouchTerrain](https://github.com/ChHarding/TouchTerrain_for_CAGEO),
 [dem2stl](https://github.com/ansonl/dem2stl), and multi-color topo maps on MakerWorld.
+
+## License
+
+[MIT](LICENSE)
