@@ -1,0 +1,25 @@
+[project]
+name = "topo-print"
+version = "0.1.0"
+description = "Generate multi-color 3D-printable terrain tiles with lakes and rivers"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy",
+    "pillow",
+    "requests",
+    "scipy>=1.17.1",
+    "trimesh",
+]
+
+[project.scripts]
+topo-print = "topo_print.cli:main"
+topo-print-web = "topo_print.web:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+]
